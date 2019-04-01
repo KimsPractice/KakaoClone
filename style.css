@@ -1,0 +1,16 @@
+/*구글 폰트*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+@import "css/reset.css";
+@import "css/globals.css";
+@import "css/header.css";
+@import "css/nav.css";
+@import "css/searchBar.css";
+@import "css/friends.css";
+@import "css/chats.css";
+@import "css/find.css";
+@import "css/more.css";
+@import "css/profile.css";
+@import "css/chat.css";
+@import "css/bigScreen.css";
+@import "css/mobile.css";

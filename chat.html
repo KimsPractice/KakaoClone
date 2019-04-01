@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <title>Chat</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <header>
+  <body class="body__chat">
+    <header class="top__header chat__header">
       <div class="header__top">
         <div class="header__column">
           <i class="fas fa-plane"></i>
@@ -50,19 +51,22 @@
         <div class="chat__message__center">
           <h3 class="chat__message__username">Someone</h3>
           <span class="chat__message__body">Hellow This is test.</span>
-          <span class="chat__message__time">15:55</span>
         </div>
+        <span class="chat__message__time">15:55</span>
       </div>
     </main>
     <div class="type__message">
+      <i class="fas fa-plus fa-lg"></i>
       <div class="type__message__input">
-        <i class="fas fa-plus fa-lg"></i>
         <input type="text">
         <i class="far fa-smile fa-lg"></i>
         <span class="record-message">
           <i class="fas fa-microphone fa-lg"></i>
         </span>
       </div>
+    </div>
+    <div class="bigScreenText">
+      <span>Please make your screen smaller</span>
     </div>
   </body>
 </html>

@@ -1,0 +1,72 @@
+.top__header__transparent {
+  background-color: transparent;
+}
+
+.profile__header {
+  height: 80vh;
+  background-image: url("https://i.pinimg.com/736x/60/b0/a7/60b0a7ef623bc2487385bace5d68fc8c--material-wallpapers-android-fantastic-wallpapers.jpg");
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  top : -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile__header__container {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+
+.profile__header__container .profile__header__title {
+  font-weight: 600;
+}
+
+.profile__header__container img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile__container {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__container input {
+  width: 150px;
+  padding: 5px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.profile__actions {
+  display: flex;
+}
+
+.profile__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.profile__action__circle {
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+}
+
+.profile__action__title {
+  font-size: 12px;
+  font-weight: 600;
+}
